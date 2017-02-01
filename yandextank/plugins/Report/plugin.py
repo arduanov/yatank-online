@@ -3,7 +3,7 @@ import json
 from threading import Thread
 
 from ..Telegraf import Plugin as ReportPlugin
-from ..Aggregator import AggregatorPlugin
+from ..Aggregator import Plugin as AggregatorPlugin
 from ...core.interfaces import AbstractPlugin
 
 from .server import ReportServer
